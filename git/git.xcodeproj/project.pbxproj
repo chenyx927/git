@@ -17,6 +17,7 @@
 		DBF058EB255D2524008D8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF058EA255D2524008D8D85 /* main.m */; };
 		DBF058F5255D2524008D8D85 /* gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF058F4255D2524008D8D85 /* gitTests.m */; };
 		DBF05900255D2524008D8D85 /* gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF058FF255D2524008D8D85 /* gitUITests.m */; };
+		DBF05912255D26E2008D8D85 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF05911255D26E2008D8D85 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		DBF058FB255D2524008D8D85 /* gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF058FF255D2524008D8D85 /* gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitUITests.m; sourceTree = "<group>"; };
 		DBF05901255D2524008D8D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF05910255D26E2008D8D85 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		DBF05911255D26E2008D8D85 /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				DBF058D9255D2521008D8D85 /* SceneDelegate.m */,
 				DBF058DB255D2521008D8D85 /* ViewController.h */,
 				DBF058DC255D2521008D8D85 /* ViewController.m */,
+				DBF05910255D26E2008D8D85 /* person.h */,
+				DBF05911255D26E2008D8D85 /* person.m */,
 				DBF058DE255D2521008D8D85 /* Main.storyboard */,
 				DBF058E4255D2524008D8D85 /* Assets.xcassets */,
 				DBF058E6255D2524008D8D85 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			files = (
 				DBF058EB255D2524008D8D85 /* main.m in Sources */,
 				DBF058E3255D2521008D8D85 /* git.xcdatamodeld in Sources */,
+				DBF05912255D26E2008D8D85 /* person.m in Sources */,
 				DBF058DD255D2521008D8D85 /* ViewController.m in Sources */,
 				DBF058D7255D2521008D8D85 /* AppDelegate.m in Sources */,
 				DBF058DA255D2521008D8D85 /* SceneDelegate.m in Sources */,
